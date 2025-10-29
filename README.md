@@ -5,8 +5,8 @@ Aplicación en Python que permite registrar y gestionar pedidos de una heladerí
 ## 📂 Estructura
 
 Sistema_Heladeria/
-├── main.py
-├── pedidos.txt
+  main.py
+  pedidos.txt
 ├── funciones/
 │ ├── crear_pedido.py
 │ ├── archivo_json.py
