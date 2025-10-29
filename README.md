@@ -4,16 +4,16 @@ Aplicación en Python que permite registrar y gestionar pedidos de una heladerí
 
 ## 📂 Estructura
 
-⦁	Sistema_Heladeria/
-⦁		main.py
-⦁		pedidos.txt
-⦁		funciones/
-⦁			crear_pedido.py
-⦁			archivo_json.py
-⦁			mostrar_pedidos_guardados.py
-⦁		data/
-⦁			precios.json
-⦁			gustos.json
+- Sistema_Heladeria/
+-   main.py
+-   pedidos.txt
+-   funciones/
+-    crear_pedido.py
+-    archivo_json.py
+-    mostrar_pedidos_guardados.py
+-   data/
+-    precios.json
+-    gustos.json
 
 ## 🧊 Funcionalidades
 
