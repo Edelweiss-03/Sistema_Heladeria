@@ -2,9 +2,9 @@
 # SISTEMA DE GESTIÓN DE PEDIDOS DE HELADERÍA
 # ============================================
 
-from crear_pedido import guardar_pedido, mostrar_gustos, mostrar_tamaños_y_precios
-from archivo_json import leer_json
-from mostrar_pedidos_guardados import mostrar_base_datos
+from funciones.crear_pedido import guardar_pedido, mostrar_gustos, mostrar_tamaños_y_precios
+from funciones.archivo_json import leer_json
+from funciones.mostrar_pedidos_guardados import mostrar_base_datos
 
 
 def main():
@@ -32,3 +32,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
