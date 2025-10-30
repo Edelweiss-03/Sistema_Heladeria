@@ -2,6 +2,12 @@
 
 Aplicación en Python que permite registrar y gestionar pedidos de una heladería a través de la consola.
 
+## 🧠 Conocimientos usados: 
+
+Manejo de base de datos(.txt y .json)
+Comentado de codigo
+Modularizacion y Estructura de codigo
+
 ## 📂 Estructura
 
 - Sistema_Heladeria/
