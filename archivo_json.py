@@ -30,3 +30,4 @@ def escribir_json(ruta, datos):
     except Exception as e:
         print(f"[escribir_json] Error al escribir {ruta}: {e}")
         return False
+
