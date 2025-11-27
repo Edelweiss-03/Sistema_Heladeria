@@ -57,13 +57,20 @@ def pedir_gusto(gustos, tamaño):
     validos = 0
     gustos_elegidos = []
 
-    if tamaño == 'chico' or tamaño == 'mediano':
-        limite = 3
-    else:
-        limite = 4
+    limite_maximo = 3 if tamaño in ('chico', 'mediano') else 4
+
+    while True:
+        try:
+            limite = int(input(f"¿Cuántos gustos desea? (máximo {limite_maximo}): "))
+            if 1 <= limite <= limite_maximo:
+                break
+            else:
+                print(f"⚠️ Debe ingresar un número entre 1 y {limite_maximo}.")
+        except ValueError:
+            print("❌ Ingrese un número válido.")
 
     while validos < limite:
-        print(f"\nIngrese el gusto que desea (máximo {limite} gustos):")
+        print("\nIngrese el gusto que desea:")
         print("(chocolate, dulce de leche, frutilla, menta granizada, limón, vainilla)")
         gusto = input("> ").strip().lower()
 
@@ -78,6 +85,7 @@ def pedir_gusto(gustos, tamaño):
             print("❌ Gusto no reconocido. Intente nuevamente.")
 
     return gustos_elegidos
+
 
 
 def calcular_total(tamaño):
@@ -124,3 +132,4 @@ def guardar_pedido(pedidos, gustos_disponibles,precios):
 
 
     
+
